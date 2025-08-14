@@ -1,0 +1,78 @@
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  color: #123;
+  min-height: 100vh;
+}
+
+/* Header and Footer */
+header, footer {
+  background-color: #007f5f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+/* Layout */
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background-color: #ffffffcc;
+  border-left: 6px solid #007f5f;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button {
+  background-color: #00b4d8;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.3rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0096c7;
+}
+
+#options button {
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: #d0f4de;
+  color: #333;
+  border: 1px solid #90e0ef;
+}
+
+#options button:hover {
+  background-color: #b5ead7;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
